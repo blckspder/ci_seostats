@@ -8,4 +8,5 @@ Place the SEOstats library in the third_party folder in CI and then place the se
 Example usage is as follows:
 
 $google = $this->seostatistics->google($url);
+
 $rank = $google->getPageRank();
